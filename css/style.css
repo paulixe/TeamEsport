@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color:#F1DCC9;
+    background-color:#262444;
 }
 h1{
     font-size:5vw;
@@ -13,7 +13,8 @@ h1{
 header {
     padding-left: 5%;
     padding-right: 1%;
-    background-color: #42313A;
-    color:#F1DCC9;
+    
+    color:#ffffff;
+    background: linear-gradient(to bottom,#070bb3,#380087);
   }
 
