@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#F1DCC9;
+}
+h1{
+    font-size:5vw;
+    display:inline;
+}
+
+header {
+    padding-left: 5%;
+    padding-right: 1%;
+    background-color: #42313A;
+    color:#F1DCC9;
+  }
+
