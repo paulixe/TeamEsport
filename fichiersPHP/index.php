@@ -3,7 +3,6 @@ require_once('connect.php')
 ?>
 <!doctype html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,10 +17,11 @@ require_once('connect.php')
     </header>
 
     <main>
+
+        <ol>
         <h2>
             Etapes suivies pour le projet
         </h2>
-        <ul>
             <li>
                 Regarder l'état de la salle
             </li>

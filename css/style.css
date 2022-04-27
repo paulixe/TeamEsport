@@ -13,8 +13,12 @@ h1{
 header {
     padding-left: 5%;
     padding-right: 1%;
-    
+
     color:#ffffff;
     background: linear-gradient(to bottom,#070bb3,#380087);
   }
+ol,li{
+    color:white;
+    margin: 1%;
+}
 
