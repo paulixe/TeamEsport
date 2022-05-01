@@ -3,6 +3,7 @@ require_once('connect.php')
 ?>
 <!doctype html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,11 +18,24 @@ require_once('connect.php')
     </header>
 
     <main>
+        <div id="jalonContainer">
+            <div class="jalon">
 
+            </div>
+            <div class="jalon">
+
+            </div>
+            <div class="jalon">
+
+</div>
+<div class="jalon">
+
+</div>
+        </div>
         <ol>
-        <h2>
-            Etapes suivies pour le projet
-        </h2>
+            <h2>
+                Etapes suivies pour le projet
+            </h2>
             <li>
                 Regarder l'état de la salle
             </li>
@@ -49,7 +63,7 @@ require_once('connect.php')
             <li>
                 Installer les PC
             </li>
-        </ul>
+            </ul>
     </main>
 
 </body>

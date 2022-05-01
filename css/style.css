@@ -1,24 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    background-color:#262444;
+
+body {
+    background-color: #262444;
 }
-h1{
-    font-size:5vw;
-    display:inline;
+
+h1 {
+    font-size: 5vw;
+    display: inline;
 }
 
 header {
     padding-left: 5%;
     padding-right: 1%;
 
-    color:#ffffff;
-    background: linear-gradient(to bottom,#070bb3,#380087);
-  }
-ol,li{
-    color:white;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #070bb3, #380087);
+}
+
+ol,
+li {
+    color: white;
     margin: 1%;
 }
 
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5vh;
+}
+
+#jalonContainer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.jalon {
+    background-color: red;
+    width: 55%;
+    height: 50vh;
+}
+
+.jalon:nth-child(2n) {
+    align-self: flex-end;
+    background-color: blue;
+}
