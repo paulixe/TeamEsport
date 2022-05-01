@@ -5,6 +5,7 @@
 
 body {
     background-color: #262444;
+    font-size: 2em;
 }
 
 h1 {
@@ -40,12 +41,17 @@ main {
 }
 
 .jalon {
-    background-color: red;
+    padding:2%;
     width: 55%;
     height: 50vh;
+    color:#ee3fa2;
 }
 
 .jalon:nth-child(2n) {
+    background:linear-gradient(to bottom right,#8f91e2,#380087) ;
     align-self: flex-end;
-    background-color: blue;
+    color:#931e9b;
+}
+.jalon:nth-child(2n+1) {
+    background:linear-gradient(to bottom right,#380087,#8f91e2) ;
 }
