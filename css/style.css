@@ -33,6 +33,8 @@ main {
     padding-top: 5vh;
 }
 
+@media screen and (min-width:1000px){
+
 #jalonContainer {
     width: auto;
     display: flex;
@@ -54,4 +56,29 @@ main {
 }
 .jalon:nth-child(2n+1) {
     background:linear-gradient(to bottom right,#380087,#8f91e2) ;
+}
+}
+
+@media screen and (max-width:1000px){
+    #jalonContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 6vh;
+    }
+    
+    .jalon {
+        padding:2%;
+        width: 100%;
+        height: 40vh;
+        color:#ee3fa2;
+    }
+    
+    .jalon:nth-child(2n) {
+        background:linear-gradient(to bottom right,#8f91e2,#380087) ;
+        color:#931e9b;
+    }
+    .jalon:nth-child(2n+1) {
+        background:linear-gradient(to bottom right,#380087,#8f91e2) ;
+    }
 }
