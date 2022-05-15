@@ -20,11 +20,11 @@ require_once('fichiersPHP/connect.php')
         <div id="jalonContainer">
 
             
-            <a class="jalon" href="#">
+            <a class="jalon" href="fichiersPHP/pageJalon/EtatSalle.php">
             <img src="images/cahier_des_charges.jpg" alt="image de cahier des charges">
             <h3>Faire le cahier des charges</h3>
 </a>
-<a class="jalon" href="fichiersPHP/pag  eJalon.php">
+<a class="jalon" href="fichiersPHP/pageJalon.php">
                 <img src="images/ordinateur.jpg" alt="image d'ordinateur">
                 <h3>Regarder l'état de la salle</h3>
             </a>
