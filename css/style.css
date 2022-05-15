@@ -73,6 +73,22 @@ h3{
     .jalon {
         width: 100%;
     }
+}
 
-
+/*
+For pageJalon
+*/
+#direcindex
+{
+    text-decoration: none;
+}
+#image_page_jalon{
+    width:70vmin;
+    object-fit: cover;
+    display:block;  
+}
+h2{
+    color:#8f91e2;
+    font-size: 3em;
+    text-align: center;
 }

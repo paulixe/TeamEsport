@@ -12,22 +12,22 @@ require_once('fichiersPHP/connect.php')
 </head>
 
 <body>
-    <header>
-        <h1> Team E-Sport
-        </h1>
-    </header>
+    <?php
+    include ('fichiersPHP/Header.php');
+    ?>
 
     <main>
         <div id="jalonContainer">
-            <a class="jalon" href="#">
-                <img src="images/ordinateur.jpg" alt="image d'ordinateur">
-                <h3>Regarder l'état de la salle</h3>
-            </a>
+
             
             <a class="jalon" href="#">
             <img src="images/cahier_des_charges.jpg" alt="image de cahier des charges">
             <h3>Faire le cahier des charges</h3>
 </a>
+<a class="jalon" href="fichiersPHP/pag  eJalon.php">
+                <img src="images/ordinateur.jpg" alt="image d'ordinateur">
+                <h3>Regarder l'état de la salle</h3>
+            </a>
             <a class="jalon" href="#">
             <img src="images/formulaire.jpg" alt="image de cahier des charges">
             <h3> Envoyer un formulaire aux joueurs intéressés</h3>
