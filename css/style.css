@@ -5,11 +5,10 @@
 
 body {
     background-color: #262444;
-    font-size: 2em;
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 5em;
     display: inline;
 }
 
@@ -21,16 +20,31 @@ header {
     background: linear-gradient(to bottom, #070bb3, #380087);
 }
 
-ol,
-li {
-    color: white;
-    margin: 1%;
-}
-
 main {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5vh;
+}
+
+.jalon {
+    padding:2%;
+
+    text-align: center;
+}
+.jalon img{
+    width:100%;
+    object-fit:cover;
+}
+h3{
+    font-size: 2em;
+}
+.jalon:nth-child(2n) {
+    color:#ee3fa2;
+    background:linear-gradient(to bottom right,#8f91e2,#380087) ;
+}
+.jalon:nth-child(2n+1) {
+    color:#931e9b;
+    background:linear-gradient(to bottom right,#380087,#8f91e2) ;
 }
 
 @media screen and (min-width:1000px){
@@ -41,21 +55,11 @@ main {
     flex-direction: column;
     gap: 6vh;
 }
-
 .jalon {
-    padding:2%;
     width: 55%;
-    height: 50vh;
-    color:#ee3fa2;
 }
-
 .jalon:nth-child(2n) {
-    background:linear-gradient(to bottom right,#8f91e2,#380087) ;
     align-self: flex-end;
-    color:#931e9b;
-}
-.jalon:nth-child(2n+1) {
-    background:linear-gradient(to bottom right,#380087,#8f91e2) ;
 }
 }
 
@@ -66,19 +70,9 @@ main {
         flex-direction: column;
         gap: 6vh;
     }
-    
     .jalon {
-        padding:2%;
         width: 100%;
-        height: 40vh;
-        color:#ee3fa2;
     }
-    
-    .jalon:nth-child(2n) {
-        background:linear-gradient(to bottom right,#8f91e2,#380087) ;
-        color:#931e9b;
-    }
-    .jalon:nth-child(2n+1) {
-        background:linear-gradient(to bottom right,#380087,#8f91e2) ;
-    }
+
+
 }
