@@ -15,7 +15,6 @@ h1 {
 header {
     padding-left: 5%;
     padding-right: 1%;
-
     color: #ffffff;
     background: linear-gradient(to bottom, #070bb3, #380087);
 }
@@ -100,7 +99,7 @@ h2{
     background-color: #8f90e238;
     border-radius: 2em;
     padding:2em;
-    margin:2em 0;
+    margin:2em 1em;
 }
 .highflexgrow{
     flex-grow:2;
@@ -117,4 +116,25 @@ h2{
 }
 #finjalon,#debutjalon{
     color:#ee3fa2;
+}
+p{
+    font-size: 2em;
+}
+.centre{
+    text-align: center;
+}
+.bouton:hover{
+    background-color: #8f91e2;
+    color:black;
+
+}
+.bouton{
+    background-color: #380087;
+    color:#ffffff;  
+    display: inline;
+    border-radius: 2em;
+    padding:0.3em;
+    margin:1em;
+    font-size: 3em;
+    text-decoration: none;
 }
