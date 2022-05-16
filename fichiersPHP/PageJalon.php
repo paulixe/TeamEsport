@@ -31,6 +31,7 @@ require_once('connect.php')
             $resume = $ligne['jalon_resume'];
             $debut = $ligne['jalon_debut'];
             $fin=$ligne['jalon_fin'];
+            $lien=$ligne['jalon_lien'];
             ?>
     <main>
         <div class="gauchevsdroite">
@@ -61,7 +62,7 @@ require_once('connect.php')
         </p>
         </div>
         <div class="centre">
-        <a class="bouton" href="#">
+        <a class="bouton" href="<?=$lien?>">
             En savoir plus
 </a>
 </div>
